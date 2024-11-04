@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="flower.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Shopping Flowers</title>
+</head> 
+
+<body>
+<!-- 
+    <nav class="navbar bg-body-tertiary fixed-top" >
+        <div class="container  ms-auto mx-5 px-5" >
+            <a class="navbar-brand" href="#">LARES FLOWER</a>
+
+            <button class="navbar-toggler m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" style="border: none !important;"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-fill" 
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                </svg>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header ">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div> 
+                <h4 class=" m-4" style="text-align: center;">Your Cart</h4>
+
+                    <div class="card  text-dark mb-2" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="/imges/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="" style="height: 40%; width: 100%">
+                            <h5 class="card-text text-left">White Rose</h5>
+                            <p>$45</p>
+                            <input type="number" value="1" class="" >
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p style="text-align:right;" class="m-4 border-top"> Total </p>
+                        </div>
+                        <div>
+                            <p style="text-align:right;" class="m-4 border-top"> $0 </p>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger w-50 m-4">Buy Now</button>
+
+                    <div>
+                        <img src="/imges/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="" style="height: 40%; width: 100%">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                                </svg>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                        </svg>
+                    </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title cart-Title" id="offcanvasNavbarLabel">Your Cart</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <img src="./imges/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="carte-title">Earbuds</div>
+                            <div style="font-weight: 500;">$25</div>
+                            <input type="number" value="1" id="" class="carte-quan">
+                        </div>
+            
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash cart-remove"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                            <path
+                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+            
+                <button type="button" class="btn-buy">Buy Now</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x cloes-acrt"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+    </nav>
+
+
+    <section class="py-5" id="features">
+        <div class="container">
+            <h3 class="text-center mb-4 mt-5"> Shop Products </h3>
+            <div class="row-cols-md-2 row-cols-lg-4 row row-cols-1 g-4 m-4 ">
+
+                <div class="col-md" >
+                    <!-- border: none !important هاد الكود لنقيم تحديد الاطار من الصور -->
+                    <div class="card  text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body" >
+                            <img src="./imges/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="" style="height: 40%; width: 100%" >
+                            <h5 class="card-text text-left">White Rose</h5>
+                            <p>$45</p>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/doug-kelley-rPDuuBEtFI8-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">White Tulip </h5>
+                            <p>$15</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body"> 
+                            <img src="./imges/olia-gozha-9A_peGrSbZc-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Pink Rose</h5>
+                            <p>$60</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/j-lee-yRXuXvy4sQ4-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">White Rose</h5>
+                            <p>$38</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/paul-green-5lRxNLHfZOY-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Sunflower Rose</h5>
+                            <p>$50</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/corey-oconnell-RW7nLtLRHro-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Pink Rose</h5>
+                            <p>$35</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/erda-estremera-6ZyLeconAsg-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Blue Rose</h5>
+                            <p>$22</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;"> 
+                        <div class="card-body">
+                            <img src="./imges/taylor-heery-q6Aowpij5_s-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Pink Rose</h5>
+                            <p>$48</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card text-dark mb-2 sec" style="border: none !important;">
+                        <div class="card-body">
+                            <img src="./imges/wolfgang-hasselmann-XdFRghP5MOY-unsplash.jpg" alt="" style="height: 40%; width: 100%;">
+                            <h5 class="card-text text-left">Purple Rose</h5>
+                            <p>$23</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill float-end mt-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+</body>

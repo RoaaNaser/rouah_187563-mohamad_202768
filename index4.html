@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Exit Bage</title>
+
+    <style>
+        body{
+            background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);  
+            /* background: linear-gradient(to right , black 0%, black 50%, white 50% , white 100%);           */
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display:flex; justify-content:center; ">
+
+        <form class="row g-3 bg-light m-5 p-5" style="width: 800px; margin-left: 50px;">
+        
+            <div class="col">
+                <h3 class="title">billing address</h3><br>
+                <div class="">
+                    <label for="inputEmail4" class="form-label">Full Name :</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Roaa Nasser">
+                </div>
+                <div class="">
+                    <label for="inputEmail4" class="form-label">Email : </label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="example@example.com">
+                </div>
+                <div class="">
+                    <label for="inputPassword4" class="form-label">Address : </label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="room - street - locality">
+                </div>
+                <div class="">
+                    <label for="inputAddress" class="form-label">City : </label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Riyadh">
+                </div>
+        
+                <div class="" style="display: flex; gap: 15px;">
+                    <div class="">
+                        <label for="inputAddress2" class="form-label">State : </label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Saudi Arabia">
+                    </div>
+                    <div class="">
+                        <label for="inputCity" class="form-label">Zip Code : </label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="123 456">
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="col">
+                <h3 class="title">payment</h3><br>
+                <div class="">
+                    <label for="inputZip" class="form-label">Cards Accepted :</label><br>
+                    <img src="./imges/card.png" alt="" style="height: 34px;" class="border">
+                </div>
+                <div class="">
+                    <label for="inputZip" class="form-label">Name On Card :</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="Nasser As3ad">
+                </div>
+                <div class="">
+                    <label for="inputZip" class="form-label">Credit Card Number :</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="">
+                    <label for="inputZip" class="form-label">Exp Month :</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="january">
+                </div>
+        
+                <div style="display: flex; gap: 15px;">
+                    <div class="">
+                        <label for="inputCity" class="form-label">Exp Year : </label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="2023">
+                    </div>
+                    <div class="">
+                        <label for="inputCity" class="form-label">CVV : </label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="123">
+                    </div>
+                </div>
+            </div>
+        
+            <div>
+                <button type="submit" class="btn btn-success p-2 mt-3" style="width: 100%;">proceed to checkout</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+</body>
